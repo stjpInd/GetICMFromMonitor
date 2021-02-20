@@ -26,7 +26,7 @@ namespace
 namespace ICMUtil
 {
     /// <summary>
-    /// Gets the path of the default ICM profile for the monitor the given window is on (based on whatever MONITOR_FROM_WINDOW reports).
+    /// Gets the path of the default ICM profile for the monitor the given window is on (based on whatever MonitorFromWindow reports).
     /// </summary>
     /// <param name="hWnd">Handle to the window</param>
     /// <param name="monitorFlags">Flags to determine which monitor to use when it can not be determined from the window,
